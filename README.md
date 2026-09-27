@@ -30,3 +30,13 @@ The project is ready for import into Vercel. No build-time environment variables
 ## Content sources
 
 Core company messaging and service detail are based on the supplied Tent King Group profile. Public Tent King contact details were verified against the existing Tent King website. Mission, vision and values copy is editorially derived from the profile and should be approved before launch.
+
+
+## SEO, Analytics & Launch Configuration
+
+Set these Vercel environment variables before launch if available:
+
+- `NEXT_PUBLIC_GA4_ID` — enables Google Analytics 4.
+- `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` — enables Google Search Console verification.
+
+The site already generates `/sitemap.xml` and `/robots.txt` for `https://www.tentsking.co.za/`.
